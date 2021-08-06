@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* header section */
+/* background image */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(image/pen.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  background-attachment: fixed;
+}
+/* heading */
+.heading {
+  margin-top: 6rem;
+  color: #fff;
+}
+.heading h1{
+  font-size: 4.5rem;
+}
+.bold{
+  font-weight: 700;
+}
+.heading h2{
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+/* header buttons */
+.header-buttons{
+  margin-top: 5rem;
+}
+.header-buttons a{
+  border-radius: 0.3rem;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 2px 3px 3px 0 #000000;
+}
+.header-buttons a:hover{
+  color: #fff;
+  background-color: #000;
+  box-shadow: none;
+}
+
+/* authors section */
+#authors{
+  margin: 5rem;
+  font-weight: bold;
+}
+.authors-cards{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.card-img-top{
+  width: 25%;
+  height: 40%;
+}
+.card-title{
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 0.3rem;
+}
+.card-title a{
+text-decoration: none;
+color: deeppink;
+}
+.card-title a:hover{
+color: #000;
+}
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #f4b927;
+    padding: 50px 50px 30px 50px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    font-weight: bold;
+}
+
+.footer-nav{
+  float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #111;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #fff;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  color: #000;
+}
+
+.ion-social-facebook:hover,
+.ion-social-instagram:hover,
+.ion-social-twitter:hover,
+.ion-social-googleplus:hover {
+    color: #fff;
+}
+
+.footer p {
+    color: #000;
+    margin-top: 20px;
+}
