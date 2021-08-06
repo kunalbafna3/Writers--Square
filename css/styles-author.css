@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #f4b927;
+   }
+
+/* nav */
+#navArea {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 10%;
+      position: fixed;
+      width: 100%;
+      top: 0px;
+      background: white;
+}
+.logo h1{
+  font-size: 2rem;
+}
+
+.wrapper1 {
+padding-top: 120px;
+}
+
+.card-body1{
+text-align: center;
+width: 1100px;
+height: auto;
+background-color: white;
+box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
+}
+.card-body1 h6 {
+font-size: 15px;
+text-transform: uppercase;
+color: deeppink;
+padding-top: 1rem;
+}
+.card-title1 {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 24px;
+padding-top: 1rem;
+}
+.card-text1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  padding: 1rem 2rem;
+}
+
+/* previous chapters cards */
+.wrapper1 h2{
+  padding-bottom: 3rem;
+  box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
+  
+}
+.mar-bottom{
+	margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card-body{
+   text-align: center;
+   box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
+   padding-bottom: 3rem;
+}
+.card-body h6 {
+font-size: 14px;
+text-transform: uppercase;
+color: deeppink;
+}
+.card-title {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 24px;
+}
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
