@@ -11,7 +11,7 @@
 /* background image */
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(image/pen.jpg);
+    url('image/pen.jpg');
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -100,6 +100,18 @@ color: #000;
 .social-links {
     list-style: none;
     float: right;
+}
+
+.want-write{
+background-color: white;
+padding: 1rem;
+border: 2px solid #000 !important;
+}
+
+.want-write:hover{
+	color: #fff;
+	background-color: #000;
+	border: 2px solid #000 !important;
 }
 
 .footer-nav li,
