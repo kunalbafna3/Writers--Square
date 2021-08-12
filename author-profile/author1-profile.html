@@ -39,8 +39,7 @@
     </div>
     <form action="">
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Write Here</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+        <textarea name="editor1" class="form-control">Write here!</textarea>
       </div>
       <div class="header-buttons2">
         <a href="#">Submit chapter</a>
@@ -49,6 +48,10 @@
   </form>
 
   </div>
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace('editor1');
+  </script>
 </body>
 
 </html>
